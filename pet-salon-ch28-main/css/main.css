@@ -1,0 +1,18 @@
+/*global*/
+
+/*utilities*/
+
+/*header*/
+header.site-header{
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    background-image: url(https://www.seat.mx/content/countries/mx/seat-website/es/servicio/accesorios-originales/seat-pets/_jcr_content/par/twocolumns_330270530_36697074/twocolumnsimage.resizedViewPort.noscale.assetRootS.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+/*register form*/
+.form-container div{
+    margin-bottom: 1rem;
+}
