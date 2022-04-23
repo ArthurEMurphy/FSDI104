@@ -12,7 +12,25 @@ header.site-header{
     background-size: cover;
 }
 
+main{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*register form*/
+.form-container h2{
+
+}
 .form-container div{
     margin-bottom: 1rem;
+}
+
+.pets{
+    display:flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pet{
+    border: 1rem solid black;
 }

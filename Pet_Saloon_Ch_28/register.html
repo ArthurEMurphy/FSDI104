@@ -23,18 +23,18 @@
         <div class="form-container container">
             <h2>Register a new pet</h2>
             <div>
-                <input class="form-control" type="text" id="txtName" placeholder="Enter the name">
+                <input class="form-control" type="text" id="txtName" placeholder="Enter pet's name">
             </div>
             <div>
-                <input class="form-control"type="number" id="txtAge" placeholder="Enter the age">
+                <input class="form-control"type="number" id="txtAge" placeholder="Enter pet's age">
             </div>
             <div >
                 <input 
                 class="form-control"
-                type="text" id="txtGender" placeholder="Enter the gender">
+                type="text" id="txtGender" placeholder="Enter pet's gender">
             </div>
             <div >
-                <input type="text" class="form-control" id="txtBreed" placeholder="Enter the Breed">
+                <input type="text" class="form-control" id="txtBreed" placeholder="Enter pet's Breed">
             </div>
             <div >
                 <select class="form-control" id="selService">
@@ -52,15 +52,23 @@
             <button onclick="register();" class="btn btn-primary">Register</button>
         </div>
 
-        <div id="pets">
+        <div class="pets" id="pets">
             <!-- display the names of the pets using
             <li> tag 
             -->
+        </div>
+        <div>
+            <table class="petTable" id="petTable">
+                <tr><th></th></tr>
+                
+            </table>
         </div>
     </main>
     <footer>
         <!-- display salon details here-->
     </footer>
+    <script src="scripts/display.js"></script>
     <script src="scripts/register.js"></script>
+    
 </body>
 </html>
