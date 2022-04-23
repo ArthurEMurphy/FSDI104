@@ -70,7 +70,7 @@ function clearInputs(){
 // Create pets
 let scooby = new Pet("Scooby",50,"Male","Dane","Grooming","Shaggy","555-555-5555");
 let scrappy = new Pet("Scrappy",40,"Male","Mixed","Nails cut","Shaggy","555-555-5554");
-let cheddar = new Pet("Cheddar",30,"Female","Corgi","Grooming","Short","555-555-5553");
-let nacho = new Pet("Nacho",20,"Male","Mixed","Teeth brush","Curly","555-555-5552");
+let cheddar = new Pet("Cheddar",10,"Female","Corgi","Grooming","Short","555-555-5553");
+let nacho = new Pet("Nacho",6,"Male","Mixed","Teeth brush","Curly","555-555-5552");
 petSalon.pets.push(scooby,scrappy,cheddar,nacho);
-displayPet()
+displayPet();

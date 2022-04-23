@@ -1,17 +1,17 @@
 // display the pets in list items
-// function displayPet(){
+function displayPet(){
     // creating the text
-    // let petsDiv = document.getElementById("pets");  // this is a div on register.html
-    // let tmp=""; // clear the field  
-    // for(let i=0;i<petSalon.pets.length;i++){
-        // let pet = petSalon.pets[i]; // get each pet
-        // let li = document.createElement("li"); // creating the li tag
-        // let text = document.createTextNode(pet.name);
-        // li.appendChild(text);
-        // petsDiv.appendChild(li);
-    // }
-    // document.getElementById("pets").innerHTML=tmp;
-// }
+    let petsDiv = document.getElementById("pets");  // this is a div on register.html
+    let tmp=""; // clear the field  
+    for(let i=0;i<petSalon.pets.length;i++){
+        let pet = petSalon.pets[i]; // get each pet
+        let li = document.createElement("li"); // creating the li tag
+        let text = document.createTextNode(pet.name);
+        li.appendChild(text);
+        petsDiv.appendChild(li);
+    }
+    document.getElementById("pets").innerHTML=tmp;
+}
 
 
 
@@ -25,7 +25,7 @@ function displayCards(){
     for(let i=0;i<petSalon.pets.length;i++){
         let pet = petSalon.pets[i];
         tmp+=`
-        <div class="pets">
+        <div class="pets" id="pets">
             <h4>${pet.name}</h4>;
             <p>${pet.age}</p>;
             <p>${pet.gender}</p>; 
