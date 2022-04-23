@@ -12,7 +12,7 @@ function displayPet(){
     }
     document.getElementById("pets").innerHTML=tmp;
 }
-
+displayPet()
 
 
 
@@ -36,7 +36,7 @@ function displayCards(){
     }
     document.getElementById("pets").innerHTML=tmp;
 }
-
+displayCards()
 
 // display in table
 function displayTable(){
@@ -55,4 +55,4 @@ function displayTable(){
     }
     document.getElementById("pets").innerHTML=tmp;
 }
-
+displayTable()
