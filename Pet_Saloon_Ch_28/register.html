@@ -51,21 +51,27 @@
             </div>
             <button onclick="register();" class="btn btn-primary">Register</button>
         </div>
-
-        <div class="pets" id="pets">
-            <!-- display the names of the pets using
-            <li> tag 
-            -->
+        <div class="container">>
+            <input type="search" id="txtSearch">
+            <button onclick="searchPet()" class="btn btn-danger">Search</button> 
         </div>
+
+        <div class="pets" id="pets"></div>
         <div>
             <table class="petTable" id="petTable">
-                <tr><th></th></tr>
+                <thead>
+                    <tr><th></th></tr>
+                </thead>
                 
             </table>
         </div>
     </main>
-    <footer>
-        <!-- display salon details here-->
+    <footer class="foot">
+        <p><b>The Fashion Pet</b> |
+            787 Ave University |
+            (513) 829-5577 |
+            M-F: Open 9:00 a.m. - Close 6:00 p.m. | Closed Weekends
+        </p>      
     </footer>
     <script src="scripts/display.js"></script>
     <script src="scripts/register.js"></script>

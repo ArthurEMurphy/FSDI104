@@ -18,13 +18,20 @@ main{
     margin-right: auto;
 }
 /*register form*/
-.form-container h2{
+.form-container h2{}
 
+.foot{
+    font-size: 12px;
+    
 }
+
 .form-container div{
     margin-bottom: 1rem;
 }
 
+#pets{
+    display:flex;
+}
 .pets{
     display:flex;
     justify-content: space-between;
@@ -32,5 +39,15 @@ main{
     margin-right: auto;
 }
 .pet{
-    border: 1rem solid black;
+    display:flex;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+.pet .pet-header button{
+    font-size: 14px;
+    border:none;
+}
+
+.highlight{
+    border:3px solid yellow;
 }
